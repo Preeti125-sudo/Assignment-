@@ -8,6 +8,6 @@ int main(){
   printf("Enter time :");
   scanf("%f",&time);
   simple_interest=principal*rate/100*time;
-  printf("simple_ interest=%.2f\n",simple_interest);
+  printf("simple_interest=%.2f\n",simple_interest);
   return 0;
 }
