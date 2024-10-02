@@ -11,7 +11,7 @@ int main () {
   printf("Enter the time:");
   scanf("%lf",&time);
   float rate_per_year;
-  printf("Enter the rate _per_ year:");
+  printf("Enter the rate_per_year:");
   scanf("%lf",&rate_per_year);
   double amount;
   amount =principal* (pow((1+rate/rate_per_year),rate_per_year*time));
